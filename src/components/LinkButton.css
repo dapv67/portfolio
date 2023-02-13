@@ -1,0 +1,14 @@
+.container-link {
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid #f9f9f9;
+  border-radius: 4px;
+  color: #f7f7f7;
+  display: flex;
+  margin-bottom: 1.2rem;
+  text-decoration: none;
+}
+.icon-link {
+  margin-right: 1rem;
+}
