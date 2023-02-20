@@ -1,10 +1,24 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../imgs/logo.png";
+import { Link } from "react-router-dom";
+
 function Footer(props) {
   return (
-    <div className="">
-      <img src={logo} alt="" className="logo-footer" />
+    <div className="footer">
+      <Link to="/" className="link-footer">
+        Home
+      </Link>
+      <Link to="/portfolio" className="link-footer">
+        Portfolio
+      </Link>
+
+      <Link to="/contact" className="link-footer">
+        Contact me
+      </Link>
+      <Link to="#" className="link-footer">
+        Privacy & legal
+      </Link>
+      <p className="link-footer">Dapv 2023 © All right reserved.</p>
     </div>
   );
 }

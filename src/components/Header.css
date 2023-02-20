@@ -1,0 +1,37 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+.logo-wrapper {
+  border-radius: 150px;
+  padding: 0.15rem;
+  border: 3px solid #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  border-radius: 200px;
+  width: 115px;
+  height: 115px;
+}
+.social-icons {
+  margin: 1rem 0 0 0;
+}
+.icon {
+  margin-right: 2rem;
+  color: #f9f9f9;
+}
+.icon:last-child {
+  margin: 0;
+}
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 220px;
+    height: 220px;
+  }
+  .logo-wrapper {
+    border: 3.2px solid #f9f9f9;
+  }
+}

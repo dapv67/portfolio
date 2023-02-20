@@ -12,3 +12,14 @@
 .icon-link {
   margin-right: 1rem;
 }
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 1024px) {
+  .container-link {
+    min-width: 10rem;
+    margin-right: 1rem;
+  }
+  .container-link:last-child {
+    margin-right: 0;
+  }
+}

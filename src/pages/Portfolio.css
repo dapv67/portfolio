@@ -1,0 +1,131 @@
+.portfolio {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  padding: 9rem 1rem 2rem 1rem;
+  display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(7, 7, 7, 0.5) 50%,
+    #020202 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.background {
+  position: absolute;
+  height: 100vh;
+  width: auto;
+  bottom: 0;
+  left: 0;
+  animation: fadeIn 2.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.projects {
+  position: absolute;
+  bottom: 4rem;
+  left: 1rem;
+}
+.card-project {
+  width: 80%;
+}
+.card-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.card-name-project {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+.btn-see {
+  padding: 0.75rem;
+  width: 10rem;
+  background-color: #f9f9f9;
+  color: #020202;
+  border-radius: 4px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-see a {
+  color: #020202;
+  text-decoration: none;
+}
+
+/* ---------------- Swiper ------------------- */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+:root {
+  --swiper-theme-color: #fff;
+}
+.slide-img {
+  cursor: pointer;
+}
+.slide-img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 1;
+}
+.container-sliders {
+  color: white;
+  width: 100%;
+
+  padding: 2rem 1rem;
+
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+}
+.mySwiper {
+  padding: 1rem 0;
+}
+/* ---------------------------------- */
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 1024px) {
+  .background {
+    width: 100vw;
+  }
+  .description-project {
+    padding: 0 20rem 0 0;
+  }
+}
