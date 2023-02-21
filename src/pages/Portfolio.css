@@ -9,7 +9,7 @@
   height: 100vh;
   width: 100vw;
   color: white;
-  padding: 9rem 1rem 2rem 1rem;
+  padding: 4rem 1rem 2rem 1rem;
   display: flex;
   background-image: linear-gradient(
     to bottom,
@@ -127,5 +127,8 @@
   }
   .description-project {
     padding: 0 20rem 0 0;
+  }
+  .wrapper {
+    padding: 9rem 1rem 2rem 1rem;
   }
 }

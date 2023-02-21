@@ -1,10 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
-import Header from "../components/Header";
+import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
-import Button from "react-bootstrap/Button";
 import logo from "../imgs/logo.png";
 import "../Global.css";
-import { FaPhoneAlt, FaMailBulk, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 // https://finesthomeconstruction.com/
 
 // -------------- Swiper imports ------------
@@ -14,12 +12,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/pagination";
-
-// import "./styles.css";
 
 // import required modules
-// import { Pagination } from "swiper";
 import "swiper/css/navigation";
 import "./Portfolio.css";
 
@@ -123,7 +117,6 @@ export default function Portfolio() {
     alert("Hola");
   }
 
-  // selectedProject();
   return (
     <div>
       <div className="portfolio">

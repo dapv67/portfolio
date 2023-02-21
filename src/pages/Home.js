@@ -17,9 +17,9 @@ export default function Home() {
         <div className="text-main">
           <h1>Software engineer 👨‍💻</h1>
           <p className="">
-            I am a software developer with 3 years of experience in web
-            technologies and use of agile methodologies. I am looking to
-            collaborate as a software engineer.
+            I'm a software developer with 3 years of experience in web
+            technologies and use of agile methodologies. I'm looking to help you
+            as a software engineer.
           </p>
         </div>
         <div className="btns">

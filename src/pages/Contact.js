@@ -64,9 +64,9 @@ export default function Contact() {
                 <FaMailBulk className="icon" />
                 <a
                   className="item-link"
-                  href="mailto:hello@alvaroperez.tech?Subject=Let's%20work%20together"
+                  href="mailto:hi@alvaroperez.tech?Subject=Let's%20work%20together"
                 >
-                  hello@alvaroperez.tech
+                  hi@alvaroperez.tech
                 </a>
               </div>
             </div>
