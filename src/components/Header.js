@@ -16,7 +16,7 @@ export default function Header() {
     <>
       <div className="logo-container">
         <div className="logo-wrapper">
-          <img src={yo} alt="" className="logo" />
+          <img loading="lazy" src={yo} alt="" className="logo" />
         </div>
       </div>
       <h3> Eng. Alvaro Pérez </h3>

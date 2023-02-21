@@ -129,6 +129,7 @@ export default function Portfolio() {
       <div className="portfolio">
         <img
           src={`../assets/projects/${IconUrlCurrent}.png`}
+          loading="lazy"
           className="background"
           alt="background"
         />
@@ -142,7 +143,12 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
-            <img src={logo} alt="" className="logo-footer jump" />
+            <img
+              src={logo}
+              alt="project-img"
+              loading="lazy"
+              className="logo-footer jump"
+            />
 
             <h1 className="name-project">{nameCurrent}</h1>
             <p className="description-project">{descripCurrent}</p>
