@@ -17,9 +17,12 @@ export default function Home() {
         <div className="text-main">
           <h1>Software engineer 👨‍💻</h1>
           <p className="">
-            I'm a software developer with 3 years of experience in web
-            technologies and use of agile methodologies. I'm looking to help you
-            as a software engineer.
+            +3 years of experience specialized in React and JavaScript
+            collaborating multidisciplinary teams under agile methodologies
+            developing, maintaining and deploying software functionalities
+            implementing UI/UX designs, with strong problem-solving skills.
+            Interest in software development, artificial intelligence and
+            management of high performance teams.
           </p>
         </div>
         <div className="btns">
@@ -36,13 +39,13 @@ export default function Home() {
           </div>
 
           <LinkButton
-            className="btn-main"
+            className="btn-main y"
             textDescrip="Portfolio"
             url="/portfolio"
             icon={<FaSuitcase className="icon" />}
           />
           <LinkButton
-            className="btn-main"
+            className="btn-main y"
             textDescrip="Contact me"
             url="/contact"
             icon={<FaArrowRight className="icon" />}

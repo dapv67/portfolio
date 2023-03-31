@@ -1,8 +1,22 @@
+@keyframes slideInY {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100px);
+    transition: all 1s;
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
 .contact {
   background-color: black;
   text-align: center;
   color: #f7f7f7;
   padding: 2rem 1rem;
+  animation: slideInY 1s ease-in;
 }
 .item-contact {
   display: flex;

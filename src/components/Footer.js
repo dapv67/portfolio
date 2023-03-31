@@ -18,7 +18,9 @@ function Footer(props) {
       <Link to="#" className="link-footer">
         Privacy & legal
       </Link>
-      <p className="link-footer">Dapv 2023 © All right reserved.</p>
+      <p className="link-footer">
+        alvaroperez.tech {new Date().getFullYear()} © All right reserved.
+      </p>
     </div>
   );
 }
