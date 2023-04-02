@@ -99,22 +99,16 @@ export default function Portfolio() {
   const [nameCurrent, setNameCurrent] = useState(projects[0].title);
   const [descripCurrent, setDescripCurrent] = useState(projects[0].description);
   const [urlCurrent, setUrlCurrent] = useState(projects[0].url);
-  const [imageUrlCurrent, setImageUrlCurrent] = useState(projects[0].imageUrl);
   const [IconUrlCurrent, setIconUrlCurrent] = useState(projects[0].iconUrl);
   const [items, setItems] = useState([]);
   useEffect(() => {
     setItems(projects);
   }, []);
   function selectedProject(id) {
-    // e.preventDefault(e);
     setNameCurrent(projects[id].title);
     setDescripCurrent(projects[id].description);
-    setImageUrlCurrent(projects[id].imageUrl);
     setIconUrlCurrent(projects[id].iconUrl);
     setUrlCurrent(projects[id].url);
-  }
-  function hola() {
-    alert("Hola");
   }
 
   return (

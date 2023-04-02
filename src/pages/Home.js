@@ -22,7 +22,7 @@ export default function Home() {
             developing, maintaining and deploying software functionalities
             implementing UI/UX designs, with strong problem-solving skills.
             Interest in software development, artificial intelligence and
-            management of high performance teams.
+            management of high performance teams CICD.
           </p>
         </div>
         <div className="btns">

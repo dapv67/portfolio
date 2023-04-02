@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,10 +18,9 @@
     "swiper": "^9.0.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://alvaroperez.tech/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
