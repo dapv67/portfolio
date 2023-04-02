@@ -103,6 +103,7 @@ export default function Portfolio() {
   const [items, setItems] = useState([]);
   useEffect(() => {
     setItems(projects);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   function selectedProject(id) {
     setNameCurrent(projects[id].title);
