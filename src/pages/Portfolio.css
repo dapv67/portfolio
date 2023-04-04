@@ -70,6 +70,19 @@
   color: #020202;
   text-decoration: none;
 }
+.container-stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item-stack {
+  padding: 0.19rem;
+  background-color: #f9f9f9;
+  color: #020202;
+  border-radius: 25px;
+  margin: 5px;
+  font-size: 0.85rem;
+}
 
 /* ---------------- Swiper ------------------- */
 .swiper {
@@ -108,9 +121,7 @@
 .container-sliders {
   color: white;
   width: 100%;
-
   padding: 2rem 1rem;
-
   position: absolute;
   bottom: 4rem;
   left: 0;

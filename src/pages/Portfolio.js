@@ -26,8 +26,9 @@ export default function Portfolio() {
       id: 0,
       title: 'Design and development: Ecommerce "Dulcería La Tentación"',
       description:
-        'Ecommerce "Dulceria La Tentación", sends Mexican sweets from Chicago, USA to the whole world, here I designed and developed the brand`s ecommerce. Used Technologies: Wordpress, Woocommerce, CSS3 & Adobe Xd',
+        'Ecommerce "Dulceria La Tentación", sends Mexican sweets from Chicago, USA to the whole world, here I designed and developed the brand`s ecommerce.',
       url: "https://dulcerialatentacion.com/",
+      stack: ["Wordpress", "Woocommerce", "CSS3", "Adobe Xd"],
       imageUrl: "dulceria",
       iconUrl: "dulceria",
     },
@@ -35,8 +36,17 @@ export default function Portfolio() {
       id: 1,
       title: "Design and development: Begoapp.com",
       description:
-        "Bego Project is a web app to estimate jobs and send custom quotes to customers via email & Invoice generator. Modules: Invoices, Estimates, Clients & Items. Used Technologies: Mongodb, Expressjs, Reactjs, Nodejs, Boostrap5, CSS3 & Adobe Xd",
+        "Bego Project is a web app to estimate jobs and send custom quotes to customers via email & Invoice generator. Modules: Invoices, Estimates, Clients & Items.",
       url: "#",
+      stack: [
+        "Mongodb",
+        "Expressjs",
+        "Reactjs",
+        "Nodejs",
+        "Boostrap5",
+        "CSS3",
+        "Adobe Xd",
+      ],
       imageUrl: "bego3",
       iconUrl: "bego",
     },
@@ -44,8 +54,9 @@ export default function Portfolio() {
       id: 2,
       title: "Design & development: Markstory agency website",
       description:
-        "Markstory Project is the website of a Technology development and marketing agency in Chicago, USA. Used Technologies: JavaScript, CSS3, HTML5 & Adobe Xd",
+        "Markstory Project is the website of a Technology development and marketing agency in Chicago, USA.",
       url: "https://dapv67.github.io/markstory.github.io/",
+      stack: ["JavaScript", "CSS3", "HTML5", "Adobe Xd"],
       imageUrl: "markstory",
       iconUrl: "markstory",
     },
@@ -53,8 +64,17 @@ export default function Portfolio() {
       id: 3,
       title: "Design & managment: Logistics system",
       description:
-        "3 components: Web system that controls the operation of a delivery company, API for app-system delivery & Android mobile app for delivery. Used Technologies: Reactjs, Expressjs, Nodejs, Bulma, CSS3, Adobe Xd & Scrum methodology",
-      url: "#",
+        "3 components: Web system that controls the operation of a delivery company, API for app-system delivery & Android mobile app for delivery.",
+      url: "http://logisticexpressdelsur.com/login",
+      stack: [
+        "Reactjs",
+        "Expressjs",
+        "Nodejs",
+        "Bulma",
+        "CSS3",
+        "Adobe Xd",
+        "Scrum methodology",
+      ],
       imageUrl: "logistic2",
       iconUrl: "logistic",
     },
@@ -63,8 +83,16 @@ export default function Portfolio() {
       id: 4,
       title: "Design & development: Proensi.com",
       description:
-        "Proensi.com Project is the new website of a specialist company and leader in the industrial and engineering field in Mexico. Used Technologies: JavaScript, HTML5, CSS3, Bootstrap5, jQuery & Adobe Xd",
+        "Proensi.com Project is the new website of a specialist company and leader in the industrial and engineering field in Mexico.",
       url: "https://www.proensi.com.mx/",
+      stack: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap5",
+        "jQuery",
+        "Adobe Xd",
+      ],
       imageUrl: "proensi",
       iconUrl: "proensi",
     },
@@ -72,8 +100,20 @@ export default function Portfolio() {
       id: 5,
       title: "Design & development: Central Factory App",
       description:
-        "Central Factory SaaS Web system that helps to control the processes of a factory: Generates the weekly production planning, Alerts of maximum and minimum inventory, Shipment tracking, Customer Agenda, History of inventory inputs and outputs. Used Technologies: JavaScript, HTML5, CSS3, Bootstrap5, Datatables, Chartjs, jQuery & Adobe Xd",
+        "Central Factory SaaS Web system that helps to control the processes of a factory: Generates the weekly production planning, Alerts of maximum and minimum inventory, Shipment tracking, Customer Agenda, History of inventory inputs and outputs.",
       url: "https://dapv67.github.io/central-factory/",
+      stack: [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap5",
+        "Datatables",
+        "Chartjs",
+        "jQuery",
+        "Adobe Xd",
+      ],
       imageUrl: "factory",
       iconUrl: "factory",
     },
@@ -81,17 +121,18 @@ export default function Portfolio() {
       id: 6,
       title: "Design and development: Personal/Portfolio website",
       description:
-        "Personal/Portfolio Site Project. It is my personal website where I show how I can help you and how you can contact me to work together. Used Technologies: Reactjs, Nodejs, Boostrap5, CSS3 & Adobe Xd",
+        "Personal/Portfolio Site Project. It is my personal website where I show how I can help you and how you can contact me to work together.",
       url: "https://dapv67.github.io/markstory.github.io/",
+      stack: ["Reactjs", "Nodejs", "Boostrap5", "CSS3", "Adobe Xd"],
       imageUrl: "personal",
       iconUrl: "personal",
     },
     {
       id: 7,
       title: "Design and development: Finest Construction website",
-      description:
-        "Website of a construction firm in chicago, USA. Used Technologies: Wordpress, CSS3 & Adobe Xd",
+      description: "Website of a construction firm in Chicago, USA. ",
       url: "https://finesthomeconstruction.com/",
+      stack: ["Wordpress", "CSS3", "Adobe Xd"],
       imageUrl: "finestImage",
       iconUrl: "finestIcon",
     },
@@ -99,6 +140,7 @@ export default function Portfolio() {
   const [nameCurrent, setNameCurrent] = useState(projects[0].title);
   const [descripCurrent, setDescripCurrent] = useState(projects[0].description);
   const [urlCurrent, setUrlCurrent] = useState(projects[0].url);
+  const [stack, setStack] = useState(projects[0].stack);
   const [IconUrlCurrent, setIconUrlCurrent] = useState(projects[0].iconUrl);
   const [items, setItems] = useState([]);
   useEffect(() => {
@@ -110,6 +152,7 @@ export default function Portfolio() {
     setDescripCurrent(projects[id].description);
     setIconUrlCurrent(projects[id].iconUrl);
     setUrlCurrent(projects[id].url);
+    setStack(projects[id].stack);
   }
 
   return (
@@ -140,11 +183,17 @@ export default function Portfolio() {
 
             <h1 className="name-project">{nameCurrent}</h1>
             <p className="description-project">{descripCurrent}</p>
+            <div className="container-stack">
+              <strong>Stack tech: </strong>
+              {stack.map((item) => {
+                return <div className="item-stack">{item}</div>;
+              })}
+            </div>
           </div>
         </div>
       </div>
       <div className="container-sliders">
-        <h3>Last projects</h3>
+        <h3>Salients projects </h3>
         <Swiper
           slidesPerView={5}
           spaceBetween={10}

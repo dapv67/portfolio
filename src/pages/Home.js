@@ -17,11 +17,17 @@ export default function Home() {
         <div className="text-main">
           <h1>Software engineer 👨‍💻</h1>
           <p className="">
-            +3 years of experience specialized in React and JavaScript
-            collaborating multidisciplinary teams under agile methodologies
-            developing, maintaining and deploying software functionalities
-            implementing UI/UX designs, with strong problem-solving skills.
-            Interest in software development, artificial intelligence and
+            <strong>
+              +3 years of experience specialized in React and JavaScript{" "}
+            </strong>{" "}
+            collaborating multidisciplinary teams under
+            <strong>
+              {" "}
+              agile methodologies developing, maintaining and deploying software
+              functionalities implementing UI/UX designs, with strong
+              problem-solving skills
+            </strong>
+            . Interest in software development, artificial intelligence and
             management of high performance teams.
           </p>
         </div>
