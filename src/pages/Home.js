@@ -1,18 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 import LinkButton from "../components/LinkButton";
 import "./Home.css";
 import "../Global.css";
 import pdf from "./CV.pdf";
 import { FaSuitcase, FaArrowRight, FaDownload } from "react-icons/fa";
 
-import logo from "../imgs/logo.png";
-
 export default function Home() {
   return (
     <>
       <div className="App">
+        <Nav />
         <Header />
         <div className="text-main">
           <h1>Software engineer 👨‍💻</h1>
@@ -69,8 +69,6 @@ export default function Home() {
           <h4 className="jump">Others</h4>
           <p>Adobe Xd, Shopify, Woocommerce, Wordpress, Office, Arduino</p>
         </div>
-
-        <img src={logo} alt="" className="logo-footer jump" />
       </div>
 
       <Footer />

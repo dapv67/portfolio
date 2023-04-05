@@ -1,3 +1,9 @@
+.portfolio-background {
+  background-color: #3c0466;
+}
+.nav-portfolio {
+  display: none;
+}
 .portfolio {
   position: relative;
   height: 100vh;
@@ -141,5 +147,10 @@
   }
   .wrapper {
     padding: 9rem 1rem 2rem 1rem;
+  }
+  .nav-portfolio {
+    display: block;
+    width: auto;
+    padding: 1rem;
   }
 }

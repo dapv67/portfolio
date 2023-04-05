@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import logo from "../imgs/logo.png";
 import "../Global.css";
+import Nav from "../components/Nav";
+
 import { FaArrowRight } from "react-icons/fa";
 // https://finesthomeconstruction.com/
 
@@ -156,7 +158,10 @@ export default function Portfolio() {
   }
 
   return (
-    <div>
+    <div className="portfolio-background">
+      <div className="nav-portfolio">
+        <Nav />
+      </div>
       <div className="portfolio">
         <img
           src={`../assets/projects/${IconUrlCurrent}.png`}

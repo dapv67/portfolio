@@ -3,7 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import logo from "../imgs/logo.png";
+import Nav from "../components/Nav";
+
 // Emailjs service
 import emailjs from "@emailjs/browser";
 
@@ -45,6 +46,7 @@ export default function Contact() {
   return (
     <div>
       <div className="contact">
+        <Nav />
         <Header />
         <section className="contact">
           <section className="text-contact">
@@ -116,7 +118,6 @@ export default function Contact() {
               Send
             </Button>
           </Form>
-          <img src={logo} alt="" className="logo-footer jump" />
         </section>
       </div>
       <Footer />

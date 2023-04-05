@@ -3,10 +3,11 @@
 }
 
 .App {
-  padding: 2rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem 1rem 2rem 1rem;
   color: #f9f9f9;
   font-size: 0.9rem;
-  /* background-color: aquamarine; */
   background: linear-gradient(
     -130deg,
     red 0%,
@@ -73,6 +74,9 @@
     filter: blur(0);
     transform: translateY(0);
   }
+}
+.logo-icon {
+  width: 55px;
 }
 .text-main {
   padding: 2rem 2rem;
