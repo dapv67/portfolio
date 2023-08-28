@@ -20,7 +20,7 @@ export default function Header() {
         </div>
       </div>
       <h3> Eng. Alvaro Pérez </h3>
-      <p>#Technology #Business #Science #Sports</p>
+      <p>#Technology #Science #Sports</p>
 
       <div className="social-icons">
         <Link to="https://twitter.com/dapv67" className="icon">

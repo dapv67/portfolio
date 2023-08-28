@@ -14,11 +14,9 @@ export default function Home() {
         <Nav />
         <Header />
         <div className="text-main">
-          <h1>Software engineer 👨‍💻</h1>
+          <h1>Software developer 👨‍💻</h1>
           <p className="">
-            <strong>
-              +3 years of experience specialized in React and JavaScript{" "}
-            </strong>{" "}
+            <strong>+3 years of experience working with web technology </strong>{" "}
             collaborating multidisciplinary teams under
             <strong>
               {" "}
@@ -60,13 +58,14 @@ export default function Home() {
         <div className="skills-section">
           <h3>Skilled In</h3>
           <h4 className="jump">Experienced programming languages</h4>
-          <p>JavaScript, Java, Python, SQL, R, Php</p>
+          <p>JavaScript, Java, SQL</p>
           <h4 className="jump">Experienced technologies</h4>
           <p>
-            HTML, CSS, Mongodb, Express, React, Node, Bulma, Bootstrap, jQuery
+            Spring Framework, Spring boot, React.js, Node.js, Express.js, HTML,
+            CSS, Mongodb, Bulma, Bootstrap
           </p>
           <h4 className="jump">Others</h4>
-          <p>Adobe Xd, Shopify, Woocommerce, Wordpress, Office, Arduino</p>
+          <p>Adobe Xd, Shopify, Woocommerce, Wordpress</p>
         </div>
       </div>
 
