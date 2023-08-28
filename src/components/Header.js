@@ -19,7 +19,7 @@ export default function Header() {
           <img loading="lazy" src={yo} alt="" className="logo" />
         </div>
       </div>
-      <h3> Eng. Alvaro Pérez </h3>
+      <h3> Eng. Alvaro Diego Pérez </h3>
       <p>#Technology #Science #Sports</p>
 
       <div className="social-icons">
