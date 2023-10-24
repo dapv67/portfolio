@@ -16,16 +16,18 @@ export default function Home() {
         <div className="text-main">
           <h1>Software developer 👨‍💻</h1>
           <p className="">
-            <strong>+3 years of experience working with web technology </strong>{" "}
-            collaborating multidisciplinary teams under
+            <strong>
+              +2 years of experience developing software using web technologies,{" "}
+            </strong>{" "}
+            collaborating with multidisciplinary teams,
             <strong>
               {" "}
-              agile methodologies developing, maintaining and deploying software
-              functionalities implementing UI/UX designs, with strong
-              problem-solving skills
+              maintaining and deploying functionalities, implementing UI/UX
+              designs under agile methodologies{" "}
             </strong>
-            . Interest in software development, artificial intelligence and
-            management of high performance teams.
+            with strong problem-solving skills. Interest in software
+            development, artificial intelligence and management of high
+            performance teams.
           </p>
         </div>
         <div className="btns">
@@ -58,11 +60,11 @@ export default function Home() {
         <div className="skills-section">
           <h3>Skilled In</h3>
           <h4 className="jump">Experienced programming languages</h4>
-          <p>JavaScript, Java, SQL</p>
+          <p>Java, JavaScript, SQL</p>
           <h4 className="jump">Experienced technologies</h4>
           <p>
-            Spring Framework, Spring boot, React.js, Node.js, Express.js, HTML,
-            CSS, Mongodb, Bulma, Bootstrap
+            Git, Spring Framework, Spring Boot, React.js, Node.js, Express.js,
+            HTML, CSS, Mongodb, Bulma, Bootstrap
           </p>
           <h4 className="jump">Others</h4>
           <p>Adobe Xd, Shopify, Woocommerce, Wordpress</p>
