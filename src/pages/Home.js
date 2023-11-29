@@ -64,7 +64,7 @@ export default function Home() {
           <h4 className="jump">Experienced technologies</h4>
           <p>
             Git, Spring Framework, Spring Boot, React.js, Node.js, Express.js,
-            HTML, CSS, Mongodb, Bulma, Bootstrap
+            HTML, CSS, Mongodb, Hibernate, Bulma CSS, & Bootstrap
           </p>
           <h4 className="jump">Others</h4>
           <p>Adobe Xd, Shopify, Woocommerce, Wordpress</p>
