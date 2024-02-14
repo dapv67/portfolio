@@ -17,7 +17,7 @@ export default function Home() {
           <h1>Software developer 👨‍💻</h1>
           <p className="">
             <strong>
-              +2 years of experience developing software using web technologies,{" "}
+              +3 years of experience developing software using web technologies,{" "}
             </strong>{" "}
             collaborating with multidisciplinary teams,
             <strong>
